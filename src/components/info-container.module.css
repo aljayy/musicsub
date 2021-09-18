@@ -1,0 +1,92 @@
+.sub {
+  margin: 3.5rem 2.5rem 0 2.5rem;
+  padding-bottom: 2rem;
+}
+
+.sub-description {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sub-description h2 {
+  color: hsl(223, 47%, 23%);
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.sub-description p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  padding: 0 1rem;
+}
+
+.sub-info {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.3rem;
+}
+
+.sub-info h4 {
+  font-size: 1.5rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.sub-info p {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.5rem;
+}
+
+.sub-info a {
+  font-size: 1.3rem;
+}
+
+.sub-info a:active {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+}
+
+.btn {
+  border-style: none;
+  border-radius: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.6rem;
+  padding: 1.3rem 0;
+}
+
+.payment-btn {
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0px 2rem 4rem rgba(0, 0, 0, 0.25);
+  color: #fff;
+  z-index: 10;
+}
+
+.payment-btn:hover {
+  cursor: pointer;
+}
+
+.payment-btn:active {
+  background-color: #766cf1;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+  cursor: pointer;
+}
+
+.cancel-btn:active {
+  color: black;
+}
