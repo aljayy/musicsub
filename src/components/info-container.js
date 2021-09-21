@@ -16,7 +16,7 @@ function Info() {
           <img src={music} alt="Music Image" />
         </div>
         <div>
-          <h4>Annual plan</h4>
+          <h4>Annual Plan</h4>
           <p>$59.99/year</p>
         </div>
         <a href="#">Change</a>
