@@ -127,4 +127,12 @@
   .sub-info :nth-child(3) {
     font-size: 1.4rem;
   }
+
+  .btns-container {
+    margin-top: 3rem;
+  }
+
+  .cancel-btn {
+    margin-bottom: 1.9rem;
+  }
 }
