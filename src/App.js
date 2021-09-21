@@ -1,13 +1,13 @@
 import Container from "./components/container";
 import Info from "./components/info-container";
-import hero from "./images/illustration-hero.svg";
+import Image from "./components/image";
+
+// import styles from "./App.module.css";
 
 function App() {
   return (
     <Container>
-      <div>
-        <img src={hero} alt="Woman dancing to music" />
-      </div>
+      <Image />
       <Info />
     </Container>
   );

@@ -30,6 +30,10 @@
   padding: 1rem 1.3rem;
 }
 
+.sub-info div img {
+  position: relative;
+  top: 0.2rem;
+}
 .sub-info h4 {
   font-size: 1.5rem;
   color: hsl(223, 47%, 23%);
@@ -52,6 +56,7 @@
 .btns-container {
   display: flex;
   flex-direction: column;
+
   margin-top: 2.5rem;
 }
 
@@ -81,6 +86,7 @@
 .cancel-btn {
   background-color: #fff;
   color: hsl(224, 23%, 55%);
+  margin-top: 1.5rem;
 }
 
 .cancel-btn:hover {
@@ -89,4 +95,20 @@
 
 .cancel-btn:active {
   color: black;
+}
+
+@media (min-width: 1440px) {
+  .sub {
+    margin-top: 5.5rem;
+  }
+
+  .sub-description p {
+    padding: 0 3rem;
+  }
+
+  .sub-info,
+  .btns-container {
+    margin-right: 2.8rem;
+    margin-left: 2.8rem;
+  }
 }

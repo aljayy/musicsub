@@ -1,0 +1,7 @@
+div img {
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  position: relative;
+  top: -0.3rem;
+}

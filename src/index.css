@@ -16,4 +16,12 @@ body {
   background-image: url(/src/images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 376px) {
+  body {
+    background-image: url(/src/images/pattern-background-desktop.svg);
+  }
 }

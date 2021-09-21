@@ -1,19 +1,7 @@
-import { useState } from "react";
 import styles from "./info-container.module.css";
 import music from "../images/icon-music.svg";
 
 function Info() {
-  const [payment, setPayment] = useState(false);
-  const [cancel, setCancel] = useState(false);
-
-  // function paymentHandler() {
-  //   setTimeout(function () {
-  //     setPayment(true);
-  //   }, 300);
-  // }
-
-  // ${payment ? styles["payment-click"] : ""}
-
   return (
     <div className={styles.sub}>
       <div className={styles["sub-description"]}>
